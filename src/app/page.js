@@ -6,7 +6,7 @@ import React from 'react'
 import Image from "next/image";
 import SpotlightLeft from './Image/spotlight.svg'
 import SpotlightRight from './Image/spotlight2.svg'
-import Arrow from './Image/Arrow.Svg'
+
 import { motion } from 'framer-motion'
 import Navbar from './component/Navbar'
 import Paralax from './Section/paralax/Paralax';
@@ -35,7 +35,7 @@ export default function Home() {
             <motion.p initial={{ opacity: 0, y: 20 }}  animate={{ opacity: 1, y: 0 }}  transition={{ duration: 0.5, ease: "easeInOut" }}   className=' text-sm  text-center lg:text-md text-[#E4ECFF] mt-4'>Hi! I’m Hardiek Tatenda, a Junior programmer based Indonesia</motion.p>
             <motion.button initial={{ opacity: 0, y: 20 }}  animate={{ opacity: 1, y: 0 }}  transition={{ duration: 1.2, ease: "easeInOut" }}  className='h-12 px-4 bg-gradient-to-r from-gray-800 to-slate-900 flex items-center rounded-lg gap-2 mt-6 ' >
                 <p className='text-sm font-bold text-white'>download cv</p>
-                <Image src={Arrow}></Image>
+               
             </motion.button>
             <div className='hover:scale-125 transition-all ease-in-out duration-150 absolute text-5xl md:text-7xl lg:text-8xl text-[#ffffff09] bottom-[50px] whitespace-nowrap'>
                 Writer Gamer Art
