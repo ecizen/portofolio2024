@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Instagram from '../Image/instagram.svg'
-import Whatsapp from '../Image/whatsapp.svg'
-import LinkedIn from '../Image/linkedin.svg'
+
 
 export default function Navbar() {
   const Item = ["Home", "About", "Skill", "Experience", "Work"]
