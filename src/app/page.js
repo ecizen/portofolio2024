@@ -6,7 +6,7 @@ import React from 'react'
 import Image from "next/image";
 import SpotlightLeft from './Image/spotlight.svg'
 import SpotlightRight from './Image/spotlight2.svg'
-import Arrow from './Image/arrow.Svg'
+import Arrow from './Image/Arrow.Svg'
 import { motion } from 'framer-motion'
 import Navbar from './component/Navbar'
 import Paralax from './Section/paralax/Paralax';
